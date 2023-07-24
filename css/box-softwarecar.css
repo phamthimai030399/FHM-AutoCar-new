@@ -1,0 +1,113 @@
+.box-softwarecar {
+    background: #F5F5F5;
+    padding: 90px 0px;
+}
+
+.logo-softwarecar img {
+    height: 52px;
+}
+
+.box-softwarecar .logo-text-software {
+    margin-top: -25px;
+}
+
+.box-softwarecar .logo-text-software span {
+    color: #C60000;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.box-softwarecar .logo-text-software .text-large {
+    color: #000;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.box-softwarecar .box-content {
+    gap: 40px;
+    height: 300px;
+    margin: 0 48px;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+}
+
+.item-content .button-learn-more {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: #FFE502;
+    display: flex;
+    padding: 7px 15px;
+    width: 40%;
+}
+
+.item-content .button-learn-more .content-between {
+    text-align: center;
+    align-items: center;
+}
+
+.item-content .button-learn-more span {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.box-softwarecar .box-content-img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 166px;
+}
+
+.box-softwarecar .box-content .item-content {
+    border-radius: 5px;
+    background: #FFF;
+    position: relative;
+}
+
+.box-softwarecar .box-content .item-content .content ,
+.content-between {
+    padding: 40px;
+}
+
+.box-softwarecar .box-content .item-content .content span {
+    display: block;
+}
+
+.box-softwarecar .box-content .content .top-content {
+    color: #969595;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.box-softwarecar .box-content .content .bottom-content {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.box-softwarecar .box-content .content p {
+    color: #616161;
+    font-size: 14px;
+    font-weight: 400;
+    width: 70%;
+}
+
+.content-between span {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.box-content .content-between p {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+}

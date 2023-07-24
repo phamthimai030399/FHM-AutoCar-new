@@ -6,6 +6,8 @@
 @import "./product-category.css";
 @import "./product-popular.css";
 @import "./our-featured.css";
+@import "./our-testimonial.css";
+@import "./box-softwarecar.css";
 
 body {
   background: #fff;
