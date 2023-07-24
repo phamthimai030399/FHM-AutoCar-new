@@ -1,0 +1,90 @@
+header {
+    background-color: #000;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0px;
+    flex-shrink: 0;
+}
+
+header .top-header {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header .top-header p,
+header .top-header a {
+    font-size: 12px;
+    display: inline;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 1.2px;
+}
+
+/* main-header */
+
+.title-logo span {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline;
+    padding: 0px;
+}
+
+.box-logo img {
+    width: 161px;
+}
+
+.box-logo .text-large {
+    font-size: 24px;
+}
+
+.box-logo .title-logo {
+    margin-top: -25px;
+}
+
+.menu {
+    gap: 50px;
+    overflow: hidden;
+}
+
+.box-item {
+    display: inline-flex;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+
+}
+
+
+.item-menu {
+    top: 10px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.box-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-icon {
+    width: 18px;
+
+}
+
+.icon-cart {
+    position: relative;
+}
+
+.item-order {
+    background: #FFE502;
+    position: absolute;
+    font-size: 6px;
+    top: 3px;
+    left: 8px;
+    color: #000;
+    width: 10px;
+    height: 10px;
+}
