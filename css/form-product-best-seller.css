@@ -1,10 +1,11 @@
 .product-best-selle-title .title {
-    background: url("./image/product-best-seller-title.svg");
+    background: url("../image/product-best-seller-title.svg"); 
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 10px;
     font-size: 24px;
     font-weight: 500;
+    margin-top: 95px;
 }
 
 
@@ -23,10 +24,10 @@
     box-shadow: 0px 0px 5px 0px #aaa;;
 } 
 .carousel .carousel-control-prev-icon {
-    background-image: url("./image/carousel-control-prev-icon.svg");
+    background-image: url("../image/carousel-control-prev-icon.svg");
 }
 .carousel .carousel-control-next-icon {
-    background-image: url("./image/carousel-control-next-icon.svg");
+    background-image: url("../image/carousel-control-next-icon.svg");
 } 
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
