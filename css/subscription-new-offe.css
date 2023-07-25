@@ -1,0 +1,14 @@
+.subscription-new-offe {
+    padding: 0px;
+    width: 100%;
+}
+
+.subscription-new-offe .subscription-new-offe-left {
+    background: #FFE502;
+    padding: 90px;
+}
+
+.subscription-new-offe .subscription-new-offe-right {
+    background: url("/image/subscription-new-offe.png");
+    padding: 0px;
+}

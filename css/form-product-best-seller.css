@@ -8,6 +8,9 @@
     margin-top: 95px;
 }
 
+.product-best-seller-image {
+    padding: 20px;
+}
 
 .carousel-inner .carousel-item {
     /* display: flex; */
