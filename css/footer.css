@@ -4,6 +4,7 @@ footer {
 }
 
 .footer-tittle {
+    max-width: 22%;
 }
 
 .footer-tittle span {
@@ -11,6 +12,11 @@ footer {
     font-weight: 400;
     line-height: 19px;
     text-transform: uppercase;
+}
+
+.footer-tittle .box-icon{
+    margin-top: 20px;
+    gap: 30px;
 }
 
 .footer-content {

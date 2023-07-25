@@ -1,50 +1,65 @@
 .subscription-new-offe {
-    padding: 0px;
-    width: 100%;
+  padding: 0px;
+  width: 100%;
 }
 
 .subscription-new-offe .subscription-new-offe-left {
-    background: #FFE502;
+  background: #ffe502;
 }
 
 @media (min-width: 1600px) {
-    .subscription-new-offe .subscription-new-offe-left {
-        padding: 160px;
-    }
+  .subscription-new-offe .subscription-new-offe-left {
+    padding: 160px;
+  }
 }
 
 @media ((min-width: 1200px) and (max-width: 1600px)) {
-    .subscription-new-offe .subscription-new-offe-left {
-        padding: 120px;
-    }
+  .subscription-new-offe .subscription-new-offe-left {
+    padding: 120px;
+  }
 }
 
 .subscription-new-offe .subscription-new-offe-right {
-    background: url("../image/subscription-new-offe.png"); 
-    padding: 0px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  background: url("../image/subscription-new-offe.png");
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .subscription-new-offe-left .title span {
-    display: block;
+  display: block;
 }
 
 .subscription-new-offe-left .title p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 15px;
 }
 
 .subscription-new-offe-left .title .title-top {
-    font-size: 62px;
-    font-weight: 600;
+  font-size: 62px;
+  font-weight: 600;
 }
 
 .subscription-new-offe-left .title .title-bottom {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 48px
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.form-send-mail .input-group span,
+.form-send-mail .input-group input {
+  background: #ffe502;
+  border: 1px solid #000;
+}
+
+.form-send-mail .input-group button {
+  background: #000;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 16px 28px;
 }
