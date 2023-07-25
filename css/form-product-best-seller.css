@@ -9,7 +9,7 @@
 }
 
 .product-best-seller-image {
-    padding: 20px;
+    padding: 25px;
 }
 
 .carousel-inner .carousel-item {
@@ -26,6 +26,12 @@
     top: 30%;
     box-shadow: 0px 0px 5px 0px #aaa;;
 } 
+.carousel .carousel-control-prev {
+    left: -80px;
+}
+.carousel .carousel-control-next {
+    right: -80px;
+}
 .carousel .carousel-control-prev-icon {
     background-image: url("../image/carousel-control-prev-icon.svg");
 }
@@ -52,12 +58,12 @@
 
     .carousel-inner .carousel-item-end.active,
     .carousel-inner .carousel-item-next {
-        transform: translateX(25%);
+        transform: translateX(33.33333333%);
     }
 
     .carousel-inner .carousel-item-start.active, 
     .carousel-inner .carousel-item-prev {
-        transform: translateX(-25%);
+        transform: translateX(-33.33333333%);
     }
 }
 

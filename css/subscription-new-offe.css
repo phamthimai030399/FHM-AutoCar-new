@@ -48,10 +48,19 @@
   line-height: 48px;
 }
 
+.form-send-mail .input-group{
+  border: solid 1px #000;
+  border-radius: 0.375rem;
+}
+
+.form-send-mail .form-control:focus {
+  box-shadow: none;
+}
+
 .form-send-mail .input-group span,
 .form-send-mail .input-group input {
   background: #ffe502;
-  border: 1px solid #000;
+  border: none;
 }
 
 .form-send-mail .input-group button {
