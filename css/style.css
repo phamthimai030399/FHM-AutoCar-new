@@ -1,4 +1,4 @@
-@import "./navigation-header.css";
+@import "./header.css";
 @import "./hero-background.css";
 @import "./our-policy.css";
 @import "./form-product-best-seller.css";
@@ -9,6 +9,8 @@
 @import "./our-testimonial.css";
 @import "./box-softwarecar.css";
 @import "./subscription-new-offe.css";
+@import "./our-discover.css";
+@import "./footer.css";
 
 body {
   background: #fff;
