@@ -26,8 +26,6 @@
 }
 
 .box-softwarecar .box-content {
-    gap: 30px;
-    flex-wrap: nowrap;
     margin-top: 60px;
 }
 
@@ -35,9 +33,8 @@
     margin-top: 20px;
 }
 
-.item-content .button-learn-more .content-between {
-    text-align: center;
-    align-items: center;
+.item-content .content-between {
+    padding-top: 55px;
 }
 
 .button-learn-more button {
@@ -53,13 +50,13 @@
     position: absolute;
     right: 0px;
     bottom: 0px;
-    /* height: 166px; */
 }
 
 .box-softwarecar .box-content .item-content {
     border-radius: 5px;
     background: #FFF;
     position: relative;
+    padding: 0px 10px;
 }
 
 .box-softwarecar .box-content .item-content .content ,
@@ -92,6 +89,7 @@
     font-size: 14px;
     font-weight: 400;
     width: 72%;
+    margin-top: 5px;
 }
 
 .content-between span {
@@ -106,4 +104,5 @@
     font-size: 14px;
     font-weight: 400;
     width: 100%;
+    margin-top: 5px;
 }

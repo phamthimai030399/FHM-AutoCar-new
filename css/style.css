@@ -31,11 +31,14 @@ img:not(.icon) {
 }
 
 .product-item {
-  width: 360px;
+  width: 362px;
   border-radius: 10px;
   background: #fff;
   padding: 25px;
+  margin-right: 0px;
+  line-height: 27px;
 }
+
 .product-item .box-product-image {
   width: 310px;
   height: 310px;
@@ -77,7 +80,7 @@ img:not(.icon) {
     color: #616161;
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 0;
+    margin-top: 5px;
     min-height: 45px;
 }
 
