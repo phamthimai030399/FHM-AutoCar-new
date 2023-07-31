@@ -25,10 +25,6 @@
     font-weight: 800;
 }
 
-.box-softwarecar .box-content {
-    margin-top: 60px;
-}
-
 .item-content .button-learn-more {
     margin-top: 20px;
 }
@@ -52,25 +48,27 @@
     bottom: 0px;
 }
 
-.box-softwarecar .box-content .item-content {
+.box-softwarecar .content .item-content {
     border-radius: 5px;
     background: #FFF;
     position: relative;
     padding: 0px 10px;
+    margin: 15px 0px;
+    height: 100%;
 }
 
-.box-softwarecar .box-content .item-content .content ,
+.box-softwarecar .content .item-content .content ,
 .content-between {
     padding: 40px;
     position: relative;
     display: block;
 }
 
-.box-softwarecar .box-content .item-content .content span {
+.box-softwarecar .content .item-content .content span {
     display: block;
 }
 
-.box-softwarecar .box-content .content .top-content {
+.box-softwarecar .content .content .top-content {
     color: #969595;
     font-size: 10px;
     font-weight: 400;
@@ -78,13 +76,13 @@
     text-transform: uppercase;
 }
 
-.box-softwarecar .box-content .content .bottom-content {
+.box-softwarecar .content .content .bottom-content {
     color: #000;
     font-size: 24px;
     font-weight: 500;
 }
 
-.box-softwarecar .box-content .content p {
+.box-softwarecar .content .content p {
     color: #616161;
     font-size: 14px;
     font-weight: 400;
@@ -99,7 +97,7 @@
 
 }
 
-.box-content .content-between p {
+.content .content-between p {
     color: #FFF;
     font-size: 14px;
     font-weight: 400;
