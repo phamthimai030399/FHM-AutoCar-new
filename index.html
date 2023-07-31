@@ -26,7 +26,7 @@
       <div class="top-header py-1">
         <div class="container">
           <div class="d-flex justify-content-between content-top-header">
-            <div class="item-contact">
+            <div class="item-contact d-none d-md-flex">
               <p class="f-w-500 me-3">
                 <img
                   class="icon"
@@ -46,13 +46,13 @@
                 fhmvietnam@gmail.com
               </p>
             </div>
-            <div class="item-content text-uppercase">
+            <div class="item-content text-uppercase text-nowrap">
               <p class="f-w-500" style="padding: 0px">
                 Free Shipping for order above $500.
-                <a href="" class="text-decoration-underline">Shop now!</a>
+                <a href="" class="text-decoration-underline" style="font-weight: 500;">Shop now!</a>
               </p>
             </div>
-            <div class="item-support">
+            <div class="item-support d-none d-md-flex">
               <a href="" class="f-w-500 me-3">
                 <img
                   class="icon mr-2 mb-1"
@@ -75,9 +75,82 @@
           </div>
         </div>
       </div>
-      <div class="main-header py-3">
+      <div class="main-header">
         <div class="container">
-          <div class="d-flex justify-content-between">
+          <nav class="navbar navbar-expand-md navbar-dark bg-black">
+            <div class="container-fluid p-0">
+              <div class="navbar-brand box-logo text-center">
+                <img
+                  class="mr-2 mb-1"
+                  width="15px"
+                  src="./image/logo.svg"
+                  alt="logo"
+                />
+                <div class="title-logo text-white">
+                  <span>Vehicles</span>
+                  <span class="text-large">Meta</span>
+                </div>
+              </div>
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse menu navbar-collapse" id="mynavbar">
+                <ul class="box-content navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link item-menu" href="">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item-menu" href="">Tyres</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item-menu" href="">Performance</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item-menu" href="">Lighting</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item-menu" href="">Wheels</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item-menu" href="">Parts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item-menu" href="">Body</a>
+                  </li>
+                </ul>
+                <div class="box-icon d-flex align-items-center pe-1">
+                  <a href="" class="item-icon">
+                    <img
+                      class="icon"
+                      width="15px"
+                      src="./image/icon-admin.svg"
+                      alt="icon-admin"
+                    />
+                  </a>
+                  <a href="" class="item-icon">
+                    <img
+                      class="icon"
+                      width="15px"
+                      src="./image/icon-favorites.svg"
+                      alt="icon-favorites"
+                    />
+                  </a>
+                  <a href="" class="item-icon">
+                    <div class="icon-cart">
+                      <img
+                        class="icon"
+                        width="15px"
+                        src="./image/icon-cart.svg"
+                        alt="icon-cart"
+                      />
+                      <div class="item-order rounded-circle text-center">5</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- <div class="d-flex justify-content-between">
             <div class="box-logo text-center">
               <img
                 class="mr-2 mb-1"
@@ -130,7 +203,7 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </header>
@@ -165,7 +238,7 @@
           </div>
         </div>
       </div>
-      <div class="our-policy">
+      <!-- <div class="our-policy">
         <div class="container">
           <div class="d-flex justify-content-center">
             <div
@@ -230,8 +303,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="form-product-best-seller">
+      </div> -->
+      <!-- <div class="form-product-best-seller">
         <div class="container">
           <div class="d-flex flex-column gap-30">
             <div class="product-best-selle-title text-center mb-5">
@@ -595,8 +668,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="the-most-wanted-dimensions">
+      </div> -->
+      <!-- <div class="the-most-wanted-dimensions">
         <div class="container">
           <div class="title text-center">
             <h2 class="text-uppercase">the most wanted dimesions</h2>
@@ -1443,7 +1516,7 @@
           <span>Powered & Designed by FHMVietnam.com</span>
         </div>
       </div>
-    </footer>
+    </footer> --> 
   </body>
   <script src="./js/common.js"></script>
 </html>

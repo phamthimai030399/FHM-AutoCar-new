@@ -1,38 +1,44 @@
-.banner {
-    position: relative;
-}
-
 .banner .banner-background img {
-    width: 100%;
+    
 }
+@media screen and (min-width: 768px) {
+    .banner {
+        position: relative;
+    }
+    
+    .banner .banner-background img {
+        width: 100%;
+    }
+    
+    .banner .banner-content {
+        position: absolute;
+        top: 50px;
+    }
+    
+    .banner .banner-content .banner-content-price a {
+        width: 20%;
+        font-size: 11px;
+        border-radius: 16px;
+        letter-spacing: 4px;
+        font-weight: 400;
+    }
+    
+    .banner .banner-content .banner-content-option {
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 63px;
+    }
+    
+    .banner .banner-content .banner-content-text {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .banner .banner-content .banner-content-shop {
+        width: 40%;
+        border-radius: 5px;
+        letter-spacing: 4px;
+        font-size: 18px;
+    }
 
-.banner .banner-content {
-    position: absolute;
-    top: 50px;
-}
-
-.banner .banner-content .banner-content-price a {
-    width: 20%;
-    font-size: 11px;
-    border-radius: 16px;
-    letter-spacing: 4px;
-    font-weight: 400;
-}
-
-.banner .banner-content .banner-content-option {
-    font-size: 46px;
-    font-weight: 400;
-    line-height: 63px;
-}
-
-.banner .banner-content .banner-content-text {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.banner .banner-content .banner-content-shop {
-    width: 40%;
-    border-radius: 5px;
-    letter-spacing: 4px;
-    font-size: 18px;
 }
