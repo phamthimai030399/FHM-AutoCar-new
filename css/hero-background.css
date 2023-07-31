@@ -36,6 +36,7 @@
 @media screen and (min-width: 768px) {
   .banner {
     background: url(../image/mask-group.png) no-repeat center center;
+    background-size: cover;
   }
   .banner .banner-content {
     width: 598px;

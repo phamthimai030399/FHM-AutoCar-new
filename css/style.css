@@ -49,65 +49,70 @@ img:not(.icon) {
   object-fit: cover;
 }
 .product-item .icon-product-favorite {
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    width: 18px;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  width: 18px;
 }
 .product-item .icon-product-favorite .icon-hover,
 .product-item .icon-product-favorite:hover .icon-normal {
-    display: none;
+  display: none;
 }
 .product-item .icon-product-favorite:hover .icon-hover,
 .product-item .icon-product-favorite .icon-normal {
-    display: block;
+  display: block;
 }
 .product-item .brand-name {
-    color: #969595;
-    font-size: 10px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+  color: #969595;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .product-item h3 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 .product-item p {
-    color: #616161;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 5px;
-    min-height: 45px;
+  color: #616161;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+  min-height: 45px;
 }
 
 .product-item .current-price {
-    font-size: 20px;
-    font-weight: 600;
-    margin: 15px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px 0px;
 }
 
 .product-item .origin-price {
-    color: #969595;
-    font-size: 16px;
-    font-weight: 400;
-    text-decoration: line-through;
+  color: #969595;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: line-through;
 }
 
 .product-item .btn-add-to-cart {
-    border-radius: 3px;
-    background: #FFE502;
-    color: #000;
-    padding: 7px 15px;
-    border: none;
+  border-radius: 3px;
+  background: #ffe502;
+  color: #000;
+  padding: 7px 15px;
+  border: none;
 }
 
 .product-item .btn-add-to-cart span {
-    line-height: 16px;
-    font-size: 14px;
-    font-weight: 500;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
+@media screen and (min-width: 768px) {
+  .product-item h3 {
+    font-size: 18px;
+  }
+}
