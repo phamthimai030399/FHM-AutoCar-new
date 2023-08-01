@@ -1,6 +1,6 @@
 .box-softwarecar {
     background: #F5F5F5;
-    padding: 90px 0px;
+    padding: 50px 0px;
 }
 
 .logo-softwarecar img {
@@ -104,7 +104,9 @@
 }
 
 @media screen and (min-width: 768px) {
-
+    .box-softwarecar {
+        padding: 90px 0px;
+    }
     .box-softwarecar .content .item-content .content,
     .content-between {
         padding: 40px;

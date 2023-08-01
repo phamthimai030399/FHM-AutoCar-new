@@ -1,22 +1,11 @@
 .subscription-new-offe {
   padding: 0px;
   width: 100%;
-  display: none;
 }
 
 .subscription-new-offe-left {
   background: #ffe502;
   padding: 40px 20px;
-}
-
-@media (min-width: 768px) {
-  .subscription-new-offe {
-    display: flex;
-  }
-
-  .subscription-new-offe-mobile {
-    display: none;
-  }
 }
 
 @media (min-width: 1600px) {
