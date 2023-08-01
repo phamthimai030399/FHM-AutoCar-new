@@ -57,11 +57,9 @@
     height: 100%;
 }
 
-.box-softwarecar .content .item-content .content ,
+.box-softwarecar .content .item-content .content,
 .content-between {
-    padding: 40px;
-    position: relative;
-    display: block;
+    padding: 20px;
 }
 
 .box-softwarecar .content .item-content .content span {
@@ -103,4 +101,14 @@
     font-weight: 400;
     width: 100%;
     margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .box-softwarecar .content .item-content .content,
+    .content-between {
+        padding: 40px;
+        position: relative;
+        display: block;
+    }
 }
