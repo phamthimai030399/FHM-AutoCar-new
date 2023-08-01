@@ -58,7 +58,7 @@ header .top-header a {
   position: relative;
 }
  
-.box-icon {
+header .box-icon {
   display: flex;
   align-items: center;
   gap: 20px;

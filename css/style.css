@@ -81,7 +81,7 @@ img:not(.icon) {
   font-size: 14px;
   font-weight: 400;
   margin-top: 5px;
-  min-height: 45px;
+  min-height: 55px;
 }
 
 .product-item .current-price {

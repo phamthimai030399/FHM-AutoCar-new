@@ -1,13 +1,5 @@
-.form-product-category {
-    gap: 15px;
-}
-
-.form-product-category .flex-column {
-    gap: 15px;
-}
-
 .colum-form-product-category .item-product-category {
-    width: 50%;
+    width: 48%;
     flex-wrap: nowrap;
 }
 
