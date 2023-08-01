@@ -111,6 +111,17 @@ img:not(.icon) {
   font-weight: 500;
 }
 
+.product-best-selle-title .title {
+  background: url("../image/product-best-seller-title.svg"); 
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
 @media screen and (min-width: 768px) {
   .product-item h3 {
   }
