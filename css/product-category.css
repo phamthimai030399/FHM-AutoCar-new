@@ -40,7 +40,7 @@
     text-transform: uppercase;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .form-product-category {
         flex-wrap: nowrap;
         margin: 0px;

@@ -33,7 +33,7 @@
   padding: 40px 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .subscription-new-offe-left .title .title-top {
     font-size: 62px;
   }
@@ -81,7 +81,7 @@
   padding: 16px 28px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .subscription-new-offe {
     flex-direction: row-reverse;
   }

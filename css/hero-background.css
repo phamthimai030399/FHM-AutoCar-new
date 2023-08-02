@@ -4,7 +4,7 @@
 }
 
 .banner .banner-content {
-  width: 229px;
+  width: 70%;
   padding-top: 32px;
   padding-bottom: 142px;
 }
@@ -34,6 +34,15 @@
   font-size: 16px;
 }
 @media screen and (min-width: 768px) {
+  .banner {
+    background: url(../image/mask-group.png) no-repeat center center;
+    background-size: cover;
+  }
+  .banner .banner-content {
+    width: 55%;
+}
+}
+@media screen and (min-width: 992px) {
   .banner {
     background: url(../image/mask-group.png) no-repeat center center;
     background-size: cover;

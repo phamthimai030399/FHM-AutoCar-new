@@ -103,7 +103,7 @@
     margin-top: 5px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .box-softwarecar {
         padding: 90px 0px;
     }
