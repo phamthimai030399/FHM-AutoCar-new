@@ -127,17 +127,19 @@ img:not(.icon) {
   margin-top: 50px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .product-item .box-product-image,
   .position-relative {
     width: auto;
     height: auto;
+    padding: 25px;
   }
- 
+  .product-item {
+    padding: auto;
+  }
 }
-@media screen and (min-width: 1200px) {
-  .product-item .box-product-image,
-  .position-relative {
+@media screen and (min-width: 992px) {
+  .product-best-seller-image {
     width: 310px;
     height: 310px;
   }

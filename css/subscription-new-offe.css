@@ -41,8 +41,6 @@
     font-size: 36px;
     line-height: 48px;
   }
-  .subscription-new-offe .subscription-new-offe-right{
-  }
 }
 
 .subscription-new-offe-left .title span {
@@ -81,13 +79,10 @@
   padding: 16px 28px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .subscription-new-offe {
     flex-direction: row-reverse;
   }
-  /* .subscription-new-offe-right {
-    order: 2;
-  } */
 }
 @media (min-width: 1200px) {
   .subscription-new-offe .subscription-new-offe-left {

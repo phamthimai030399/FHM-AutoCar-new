@@ -40,7 +40,7 @@
     text-transform: uppercase;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) { 
     .form-product-category {
         flex-wrap: nowrap;
         margin: 0px;
@@ -51,5 +51,9 @@
     .form-product-category .item-product-category .content-product-category span {
         font-size: 22px;
     }
-    
+}
+@media (min-width: 992px) {
+    .item-product-category {
+        
+    }
 }
