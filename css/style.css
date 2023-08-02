@@ -38,16 +38,6 @@ img:not(.icon) {
   line-height: 27px;
 }
 
-.product-item .box-product-image {
-  width: 278px;
-  height: 278px;
-}
-
-.position-relative {
-  width: 180px;
-  height: 180px;
-}
-
 .product-item .box-product-image img {
   max-width: 100%;
   max-height: 100%;
@@ -135,13 +125,6 @@ img:not(.icon) {
     padding: 25px;
   }
   .product-item {
-    padding: auto;
+    padding: 100%;
   }
-}
-@media screen and (min-width: 992px) {
-  .product-best-seller-image {
-    width: 310px;
-    height: 310px;
-  }
- 
 }
