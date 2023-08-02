@@ -33,7 +33,7 @@ img:not(.icon) {
 .product-item {
   border-radius: 10px;
   background: #fff;
-  padding: 40px;
+  padding: 30px;
   margin-right: 0px;
   line-height: 27px;
 }
@@ -72,12 +72,11 @@ img:not(.icon) {
 }
 
 .product-item p {
-  color: #616161;
+  color: #616161; 
   font-size: 14px;
   font-weight: 400;
   margin-top: 5px;
   min-height: 55px;
-  width: 70%;
 }
 
 .product-item .current-price {
@@ -127,5 +126,8 @@ img:not(.icon) {
   }
   .product-item {
     padding: 100%;
+  }
+  .product-item p {
+    width: 70%;
   }
 }
