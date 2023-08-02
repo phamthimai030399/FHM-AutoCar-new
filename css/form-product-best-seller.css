@@ -19,6 +19,7 @@
 
 .product-item h3 {
     font-size: 18px;
+    min-height: 2.4em
   }
 
 .carousel .carousel-control-prev-icon {
@@ -46,18 +47,41 @@
 @media (min-width: 992px) {
     .carousel-inner .carousel-item-end.active,
     .carousel-inner .carousel-item-next {
-        transform: translateX(33.33333333%);
+        transform: translateX(50%);
     }
 
     .carousel-inner .carousel-item-start.active, 
     .carousel-inner .carousel-item-prev {
-        transform: translateX(-33.33333333%);
+        transform: translateX(-50%);
     }
     .carousel .carousel-control-prev {
-        left: -80px;
+        left: -20px;
     }
     .carousel .carousel-control-next {
-        right: -80px;
+        right: -20px;
+    }
+    .product-best-selle-title .title {
+        background-size: 100% 100%;
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 95px;
+    }
+}
+@media (min-width: 1200px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33.333333333%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33.333333333%);
+    }
+    .carousel .carousel-control-prev {
+        left: -50px;
+    }
+    .carousel .carousel-control-next {
+        right: -50px;
     }
     .product-best-selle-title .title {
         background-size: 100% 100%;

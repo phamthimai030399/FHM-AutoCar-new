@@ -130,9 +130,16 @@ img:not(.icon) {
 @media screen and (min-width: 992px) {
   .product-item .box-product-image,
   .position-relative {
+    width: auto;
+    height: auto;
+  }
+ 
+}
+@media screen and (min-width: 1200px) {
+  .product-item .box-product-image,
+  .position-relative {
     width: 310px;
     height: 310px;
   }
-
-  
+ 
 }
