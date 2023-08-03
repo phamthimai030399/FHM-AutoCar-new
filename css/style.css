@@ -145,4 +145,7 @@ img:not(.icon) {
   .product-item {
     margin: auto;
   }
+  .product-item p {
+    width: 70%;
+  }
 }
